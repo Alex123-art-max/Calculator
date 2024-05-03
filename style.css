@@ -1,0 +1,21 @@
+:root
+--color0 #ED7B37
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: black;
+}
+table{
+    text-align: center;
+}
+    table th{
+    color: #ED7B37;    
+}
+table td{
+    color: white;
+}
+.orange{
+    color: #ED7B37;
+}
