@@ -8,7 +8,13 @@
 </head>
 <body>
     <form action="">
+        <div id="line">
+        </div>
         <table>
+            <tr>
+                <caption><label for="count"><input id="L1" type="number" name="count"></label></caption>
+                <caption id="L2"><label for="result"><input type="number" name="result"></label></caption>
+            </tr>
             <tr>
                 <th>C</th>
                 <th>⌫</th>
@@ -19,14 +25,14 @@
                 <td>7</td>
                 <td>8</td>
                 <td>9</td>
-                <td class="orange">x</td>
+                <td class="orange">×</td>
             </tr>
             <tr>
                 <td>4</td>
                 <td>5</td>
                 <td>6</td>
                 <div>
-                    <td id="circle">-</td>
+                    <td class="orange">-</td>
                 </div>
             </tr>
             <tr>
@@ -39,7 +45,9 @@
                 <td class="orange">◫</td>
                 <td>0</td>
                 <td>,</td>
-                <td class="orange">=</td>
+                <div>
+                    <td id="circle">=</td>
+                </div>
             </tr>
         </table>
     </form>

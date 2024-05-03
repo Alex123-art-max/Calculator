@@ -1,11 +1,25 @@
-:root
---color0 #ED7B37
+:root{
+--color0: #ED7B37;
+--color1: #747474;
+}
 *{
     margin: 0px;
     padding: 0px;
 }
 body{
+    font-family: Arial, Helvetica, sans-serif;
     background-color: black;
+}    
+caption label input{
+    color: var(--color1);
+    background-color: black;
+    text-align: end;
+    font-size: 6vh;
+    height: 7vh;
+    width: 100%
+}
+#L1{
+    color: white;
 }
 table{
     margin-top: 50vh;
@@ -14,19 +28,24 @@ table{
     text-align: center;
 }
 table tr{
-    font-size: 10vh;
+    font-size: 6vh;
 }table th{
     padding: 3vh;
-    color: #ED7B37;    
+    color: var(--color0);    
 }
 table td{
     color: white;
 }
 .orange{
     padding: 3vh;
-    color: #ED7B37;
+    color: var(--color0);
 }
-#circle div{
-    padding: 1vh;
+div{
+    height: 1vh;
+    width: 1vh;
+}
+#circle{
     color: white;
+    background-color: var(--color0);
+    border-radius: 10vh;
 }
