@@ -32,13 +32,30 @@ table{
     text-align: center;
 }
 table tr{
+    height: 2px;
     font-size: 6vh;
-}table th{
+}
+table th{
+    background-color: rgb(58, 58, 58);
+    border-radius: 1vh;
     padding: 3vh;
     color: var(--color0);    
 }
+table th:hover{
+    background-color: rgb(75,75,75);
+    transition: .2s;
+}
 table td{
+    background-color: rgb(58, 58, 58);
+    border-radius: 2vh;
     color: white;
+}
+table td:hover{
+    background-color: rgb(75, 75, 75);
+    transition: .2s;
+}
+#delete{
+    font-size: 40px;
 }
 .orange{
     padding: 3vh;
@@ -52,4 +69,8 @@ div{
     color: white;
     background-color: var(--color0);
     border-radius: 10vh;
+}
+#circle:hover{
+    background-color: #af5b2a;
+    transition: .2s;
 }
