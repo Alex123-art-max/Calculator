@@ -31,46 +31,26 @@ table{
     transform: translate(-50%,-50%);
     text-align: center;
 }
-table tr{
-    height: 2px;
-    font-size: 6vh;
-}
-table th{
-    background-color: rgb(58, 58, 58);
-    border-radius: 1vh;
-    padding: 3vh;
-    color: var(--color0);    
-}
-table th:hover{
-    background-color: rgb(75,75,75);
-    transition: .2s;
-}
-table td{
-    background-color: rgb(58, 58, 58);
+th input,td input{
+    height: 10vh;
+    width: 10vh;
+    margin: .5vh;
     border-radius: 2vh;
-    color: white;
+    background-color: #74747434; 
+    color: white; 
+    font-size: 4vh;
 }
-table td:hover{
-    background-color: rgb(75, 75, 75);
-    transition: .2s;
-}
-#delete{
-    font-size: 40px;
+th input:hover,td input:hover{
+    transition: .3s;
+    background-color: #747474;
 }
 .orange{
-    padding: 3vh;
     color: var(--color0);
 }
-div{
-    height: 1vh;
-    width: 1vh;
-}
 #circle{
-    color: white;
     background-color: var(--color0);
-    border-radius: 10vh;
 }
 #circle:hover{
-    background-color: #af5b2a;
-    transition: .2s;
+    background-color: #ac5726;
+    transition: .3s;
 }

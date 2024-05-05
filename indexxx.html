@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Evento de Mouse em JavaScript</title>
+</head>
+<body>
+
+<!-- Botão que será movido -->
+<button id="meuBotao">Clique Aqui</button>
+
+<!-- Caixa de texto onde o botão será movido -->
+<input type="text" id="minhaCaixaDeTexto">
+
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+    // Obtém referências para o botão e a caixa de texto
+    var botao = document.getElementById("meuBotao");
+    var caixaDeTexto = document.getElementById("minhaCaixaDeTexto");
+
+    // Adiciona o evento de clique ao botão
+    botao.addEventListener("click", function() {
+        // Move o botão para dentro da caixa de texto
+        caixaDeTexto.value = botao.textContent;
+    });
+});
+</script>
+
+</body>
+</html>
