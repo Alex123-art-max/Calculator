@@ -10,15 +10,19 @@ body{
     font-family: Arial, Helvetica, sans-serif;
     background-color: black;
 }    
-caption label input{
+caption label input::-webkit-outer-spin-button, caption label input::-webkit-inner-spin-button{
+    -webkit-appearance: none;
+}
+#L1, #L2{
     color: var(--color1);
     background-color: black;
     text-align: end;
     font-size: 6vh;
     height: 7vh;
     width: 100%
+    
 }
-#L1{
+#L2{
     color: white;
 }
 table{
